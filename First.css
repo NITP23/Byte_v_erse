@@ -1,0 +1,187 @@
+body{
+    background-color: rgb(212, 240, 212);
+}
+.top-bar{
+    height: 50px;
+    width:100%;;
+    background-color: rgb(1, 37, 1);
+    display:flex;
+   
+    color: white;
+    padding-top: 5px;
+}
+.leaf-logo{
+    height:45px;
+    width: 45px;
+    background-image: url('istockphoto-1263328016-612x612.jpg');
+    background-size: cover;
+    margin-left:40px;
+    border-radius: 50%;
+}
+.top-ops{
+    padding-top:18px;
+    display:flex;
+    justify-content: space-around;
+    margin-top:1px;
+    margin-left: 1500px;
+}
+.navbar{
+    height: 40px;
+    background-color: rgb(1, 37, 1);
+    display:flex;
+    color:azure;
+    /**text-decoration: none;**/
+    
+    
+}
+.navbar a{
+    margin-left:30px;
+    padding: 10px;
+    
+}
+.subnav{
+    height: 40px;
+    background-color: rgb(1, 37, 1);
+    display:flex;
+    justify-content:right;
+    color:azure;
+    text-decoration: none;
+    margin-left: 600px;
+
+}
+.subnav a{
+    /**padding-left: 10px;**/
+    padding-top:10px;
+}
+#second{
+    padding:10px 10px 10px 10px;
+    margin-left:100px;
+    border-radius: 4px;
+}
+.slide{
+    background-image: url('1695762936074.jpeg');                      
+    background-size: cover;                                    
+    height: 500px;
+    width: 100%;
+    color:floralwhite;
+    text-align: right;
+    font-size: 20px;                                                                       
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;                    
+}
+.msg{
+    height:40px;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: center;
+    color:black;
+    text-align: center;
+    
+}
+.msg a{
+    color:#223f85;
+    font-size: 0.85rem;
+}
+.panel1{
+    margin-top:20px;
+    display:flex;
+    justify-content: space-evenly;
+   
+}
+.box{
+    height:250px;
+    width: 300px;
+    background-color: rgb(208, 241, 241);
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+.box p{
+    margin-top:280px;
+}
+.box1{
+    background-image: url("205374022-recycle-symbol-on-the-green-grass-sustainable-and-eco-environment-concept-generative-ai.jpg");
+    background-size: cover;
+}
+.box2{
+    background-image: url("Eco-Friendly-Gift-Ideas-for-Sustainable-Living-Enthusiasts-1024x423.jpg");
+    background-size: cover;
+}
+.box3{
+    background-image: url("AdobeStock_619659518-web.jpg");
+    background-size: cover;
+}
+.box4{
+    background-image: url("Insights.jpeg");
+    background-size:cover;
+}
+.box-content p{
+    display:block;
+}
+.main{
+    height: 400px;
+    color:black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 170px;
+}
+
+.main p{
+     font-family:sans-serif;
+     font-style: normal;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+}
+.box:hover{
+    image-orientation:180deg;
+}
+.box p:hover{
+    text-decoration: underline;
+    color:#223f85;
+}
+.b{
+    height:30px;
+    width: 170px;
+    border:2px solid rgb(68, 247, 68);
+    margin:10px 10px 10px;
+    padding-top:8px;
+}
+.b:hover{
+    background-color: whitesmoke;
+    color:blue;
+    border: 2px dashed red;
+    font-weight: 700;
+}
+.footer{
+    margin:30px;
+    height: 300px;
+    width:100%;
+    background-color: rgb(12, 7, 7);
+    color:white;
+    text-align: center;
+    margin-left:0px;
+}
+.last-sec{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer p{
+    margin-top:20px;
+}
+ul p{
+    font-weight: 800;
+    font-size: larger;
+}
+ul a{
+    display:block;
+    padding: 5px 5px 5px 5px;
+    font-size: medium;
+}
+ul i{
+    display: block;
+    padding: 5px 5px 5px 5px;
+    margin-right: 8px;
+    
+}
+
