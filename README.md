@@ -1,3 +1,4 @@
 # Tech-O-Bug Calculus
-This Repository is made for For Byte-v-erse
-<h2>Sustainable Technology:Eco-Conscious website</h2>
+This Repository is made for Byte-v-erse
+<h2>Sustainable Technology:Eco-Conscious website</h1>
+<h3>Problem on which we are working</h3>
