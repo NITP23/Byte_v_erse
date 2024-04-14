@@ -1,5 +1,9 @@
 body{
-    background-color: rgb(212, 240, 212);
+    /**background-color: rgb(212, 240, 212);**/
+    background-image: url("istockphoto-1263328016-612x612.jpg");
+    background-size: cover;
+   /** backface-visibility: unset;**/
+
 }
 .top-bar{
     height: 50px;
@@ -22,11 +26,11 @@ body{
     padding-top:18px;
     display:flex;
     justify-content: space-around;
-    margin-top:1px;
+    margin-top:0px;
     margin-left: 1500px;
 }
 .navbar{
-    height: 40px;
+    height: 50px;
     background-color: rgb(1, 37, 1);
     display:flex;
     color:azure;
@@ -36,22 +40,39 @@ body{
 }
 .navbar a{
     margin-left:30px;
-    padding: 10px;
+    padding: 7px;
     
 }
 .subnav{
-    height: 40px;
+    height: 50px;
     background-color: rgb(1, 37, 1);
     display:flex;
     justify-content:right;
     color:azure;
     text-decoration: none;
-    margin-left: 600px;
-
+    margin-left: 550px;
+   
 }
 .subnav a{
     /**padding-left: 10px;**/
-    padding-top:10px;
+    padding-top:7px;
+    color:white;
+    text-decoration: none;
+}
+.subnav a:hover{
+    padding-top: 5px;
+    font-size: large;
+}
+button{
+    border:2px solid rgb(10, 228, 10); 
+    background-color:azure;
+    margin-bottom:10px;
+
+}
+button:hover{
+    border: 2px solid rgb(245, 3, 3);
+    font-size:16px;
+    background-color: rgb(255, 255, 255);
 }
 #second{
     padding:10px 10px 10px 10px;
@@ -64,12 +85,30 @@ body{
     height: 500px;
     width: 100%;
     color:floralwhite;
-    text-align: right;
-    font-size: 20px;                                                                       
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;                    
+    text-indent: 50px;
+    font-size: 25px;                                                                       
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    display: block;                  
 }
+/**.slide-con{
+    height:80px;
+    width:50px;
+    background-color: white;
+    opacity: 0.1;
+    
+    color: black;
+    padding-top: 40px;
+    margin-left: 40px;
+}**/
+.slide h1{
+    padding-top:170px;
+    
+}
+/**.slide p{
+    padding:0px;
+}**/
 .msg{
-    height:40px;
+    height:50px;
     background-color:aliceblue;
     display: flex;
     justify-content: center;
@@ -79,10 +118,13 @@ body{
 }
 .msg a{
     color:#223f85;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
+}
+.msg a:hover{
+    text-decoration: underline;
 }
 .panel1{
-    margin-top:20px;
+    margin-top:70px;
     display:flex;
     justify-content: space-evenly;
    
@@ -94,6 +136,9 @@ body{
     display:flex;
     justify-content:space-evenly;
     
+}
+.box:hover{
+    border:3px solid blueviolet;
 }
 .box p{
     margin-top:280px;
@@ -124,10 +169,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 170px;
 }
-
 .main p{
      font-family:sans-serif;
      font-style: normal;
+}
+.main h3:hover{
+    text-decoration: underline;
 }
 .main-box{
     display: flex;
@@ -143,7 +190,7 @@ body{
 .b{
     height:30px;
     width: 170px;
-    border:2px solid rgb(68, 247, 68);
+    border:3px solid rgb(68, 247, 68);
     margin:10px 10px 10px;
     padding-top:8px;
 }
