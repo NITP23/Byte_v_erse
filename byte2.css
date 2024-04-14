@@ -1,0 +1,104 @@
+body{
+  background-image: url('WhatsApp Image 2024-04-14 at 12.55.57_92e0a3b5.jpg');
+   background-size: cover;
+    background-color: rgb(137, 206, 72);
+    align-items: center;
+    
+}
+.box1{
+   /** height: 60px;
+    width: 45px;**/
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+   /** margin: 550px 0px 0px 100px ;**/
+}
+.box2{
+    background-color: rgba(149, 209, 29, 0.6) ;
+    height: 300px;
+    width: 750px;
+    margin: 200px 0px 0px 390px;
+    border-radius: 10px;
+}
+.query1{
+    font-size: 29px;
+    padding-top: 20px;
+    text-align: center;
+}
+.line1{
+    /**background-color: rgb(15, 206, 206, 0.5);**/
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    margin: 30px 0px 0px 19px ;
+}
+.option1{
+    background-color: rgb(15, 206, 206, 0.5) ;
+    border: 1px solid rgb(16, 212, 230);
+    height: 40px;
+    width:170px;
+  /**  margin: 20px 0px 0px 50px;**/
+    text-align: center;
+    font-size:27px ;
+    border-radius: 30px;
+
+
+}
+.option2{
+    background-color: rgb(15, 206, 206, 0.5) ;
+    border: 1px solid rgb(16, 212, 230);
+    height: 40px;
+    width: 170px;
+   /** margin: 20px 0px 0px 50px;**/
+    text-align: center;
+    font-size: 27px;
+    border-radius: 30px;
+}
+.line2{
+    /**background-color: rgb(15, 206, 206, 0.5);**/
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    margin: 0px 0px 0px 19px ;
+}
+.option3{
+    background-color: rgb(15, 206, 206, 0.5) ;
+    border: 1px solid rgb(16, 212, 230);
+    height: 40px;
+    width: 170px;
+   /** margin: 20px 0px 0px 10px;**/
+    text-align: center;
+    font-size: 27px;
+    border-radius: 30px;
+}
+.option4{
+    background-color: rgb(15, 206, 206, 0.5) ;
+    border: 1px solid rgb(16, 212, 230);
+    height: 40px;
+    width: 170px;
+   /** margin: 20px 0px 0px 19px;**/
+    text-align: center;
+    font-size: 27px;
+    border-radius: 30px;
+}
+/**.image{
+    height: 20px;
+    width: 80px;
+    margin: 300px 0px 0px 80px ;
+    background-image:url("360_F_454101157_e7Be1HTwBnmoZEJ0QabquCigntTQvCkq.jpg") ;
+    background-size: cover;
+    background-color: cadetblue;
+    font-size: 20px;
+   border-radius: 60%;
+    font-weight: bold;
+   border: 1px solid rgb(119, 119, 221);
+    text-align: center;
+    padding-top: 30px;
+}**/
+button{
+    /**background-color: cadetblue ;**/
+    border: 1px solid cadetblue;
+    margin-left: 650px;
+    align-items: right;
+    margin-top:25px;
+}
